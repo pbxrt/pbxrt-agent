@@ -1,0 +1,29 @@
+{
+  "name": "pbxrt-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "11 课手写一个本地 Agent：循环、工具、权限、上下文、技能、渠道、定时、MCP、子 Agent、计划、记忆（JavaScript / ESM）",
+  "type": "module",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "lesson-01": "node lessons/lesson-01/agent.js",
+    "lesson-02": "node lessons/lesson-02/agent.js",
+    "lesson-03": "node lessons/lesson-03/agent.js",
+    "lesson-04": "node lessons/lesson-04/agent.js",
+    "lesson-05": "node lessons/lesson-05/agent.js",
+    "lesson-06": "node lessons/lesson-06/agent.js",
+    "lesson-07": "node lessons/lesson-07/agent.js",
+    "lesson-08": "node lessons/lesson-08/agent.js",
+    "lesson-09": "node lessons/lesson-09/agent.js",
+    "lesson-10": "node lessons/lesson-10/agent.js",
+    "lesson-11": "node lessons/lesson-11/agent.js",
+    "bot": "node lessons/lesson-11/bot.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^7.47.0"
+  }
+}
