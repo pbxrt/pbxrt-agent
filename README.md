@@ -33,17 +33,17 @@ AGENT_WORKSPACE=~/agent-workspace npm run lesson-11
 
 | 课 | 新增能力 | 新增文件 | 累计代码 |
 |---|---|---|---|
-| 01 | 最小循环：三个工具 + while | `agent.js` | 160 行 |
-| 02 | 工具注册表与统一执行器 | `tools.js`、`env.js` | 234 行 |
-| 03 | 权限：硬规则 → 风险分级 → 人工确认 | `permissions.js`、`io.js` | 415 行 |
-| 04 | 上下文：截断 → 清理 → 摘要，会话持久化 | `context.js` | 531 行 |
-| 05 | 技能：AGENTS.md 常驻，SKILL.md 按需加载 | `skills.js` | 630 行 |
-| 06 | 接 Telegram（长轮询、聊天内确认、白名单） | `telegram.js`、`bot.js` | 812 行 |
-| 07 | 定时任务与心跳（无人值守的预授权） | `scheduler.js` | 1035 行 |
-| 08 | MCP：手写 stdio 客户端 + 一个 demo server | `mcp_client.js`、`demo_mcp_server.js` | 1270 行 |
-| 09 | 子 Agent：独立上下文、并行只读 | `subagent.js` | 1406 行 |
-| 10 | 计划：待办清单 + 由代码强制只读的计划模式 | `planning.js` | 1519 行 |
-| 11 | 记忆：MEMORY.md（每条确认）+ 会话检索 | `memory.js` | 1663 行 |
+| 01 | [最小循环：三个工具 + while](lessons/lesson-01/README.md) | `agent.js` | 160 行 |
+| 02 | [工具注册表与统一执行器](lessons/lesson-02/README.md) | `tools.js`、`env.js` | 234 行 |
+| 03 | [权限：硬规则 → 风险分级 → 人工确认](lessons/lesson-03/README.md) | `permissions.js`、`io.js` | 415 行 |
+| 04 | [上下文：截断 → 清理 → 摘要，会话持久化](lessons/lesson-04/README.md) | `context.js` | 531 行 |
+| 05 | [技能：AGENTS.md 常驻，SKILL.md 按需加载](lessons/lesson-05/README.md) | `skills.js` | 630 行 |
+| 06 | [接 Telegram（长轮询、聊天内确认、白名单）](lessons/lesson-06/README.md) | `telegram.js`、`bot.js` | 812 行 |
+| 07 | [定时任务与心跳（无人值守的预授权）](lessons/lesson-07/README.md) | `scheduler.js` | 1035 行 |
+| 08 | [MCP：手写 stdio 客户端 + 一个 demo server](lessons/lesson-08/README.md) | `mcp_client.js`、`demo_mcp_server.js` | 1270 行 |
+| 09 | [子 Agent：独立上下文、并行只读](lessons/lesson-09/README.md) | `subagent.js` | 1406 行 |
+| 10 | [计划：待办清单 + 由代码强制只读的计划模式](lessons/lesson-10/README.md) | `planning.js` | 1519 行 |
+| 11 | [记忆：MEMORY.md（每条确认）+ 会话检索](lessons/lesson-11/README.md) | `memory.js` | 1663 行 |
 
 `env.js` / `io.js` 是两个小基础设施：前者读 `.env` 并导出公共配置，后者提供一个共用的 readline，避免确认框和主循环抢 stdin。
 
